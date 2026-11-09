@@ -165,7 +165,7 @@ st.divider()
 
 # --- BOTTOM INTERACTIVE SECTION ---
 FORM_ID = "1FAIpQLSfkj3ljVbj2dgF_YYcUPlpdouNtLqeAHoFDOrvpL6LdBpCKQA"
-GOOGLE_FORM_URL = f"https://google.com{FORM_ID}/viewform"
+GOOGLE_FORM_URL = f"https://docs.google.com/forms/d/e/{FORM_ID}/viewform"
 
 if input_name and input_email:
     if not master_df.empty and "Student Name" in master_df.columns and "Student Email" in master_df.columns:
