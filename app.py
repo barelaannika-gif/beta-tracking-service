@@ -95,7 +95,6 @@ st.markdown("""
 # 2. Universal Google Sheets Connection (Pulls directly from Sheet ID)
 SHEET_ID = "1mZP0DaAhJ7MGwsr15iw63nr7TGSHXzJrlTBTa49L7IA"
 CSV_URL = f"https://google.com{SHEET_ID}/export?format=csv"
-
 def load_live_data():
     try:
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
